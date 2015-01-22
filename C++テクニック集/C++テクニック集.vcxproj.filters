@@ -13,10 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\参加者">
+      <UniqueIdentifier>{8c8e1ec2-1ac4-4fd6-bbaa-bb0343cf7206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\参加者\岸">
+      <UniqueIdentifier>{f602af79-69af-4481-a9f6-6e722ae963b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\参加者\岸\delegateパターン">
+      <UniqueIdentifier>{6a88355a-ca8b-44c7-beea-c2298bdfde50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\参加者\岸\double dispatch">
+      <UniqueIdentifier>{658602fb-5020-4e21-b612-762ec39e1f57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\Main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="sources\readme_02.txt">
+      <Filter>ソース ファイル\参加者</Filter>
+    </Text>
+    <Text Include="..\まずはじめに目を通してもらいたい.txt" />
+    <Text Include="..\コメントテンプレート.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\岸\delegateパターン\Delegater.h">
+      <Filter>ソース ファイル\参加者\岸\delegateパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\岸\delegateパターン\Example.h">
+      <Filter>ソース ファイル\参加者\岸\delegateパターン</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\岸\double dispatch\Character.h">
+      <Filter>ソース ファイル\参加者\岸\double dispatch</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
